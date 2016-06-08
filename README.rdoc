@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Building a Video Sharing App with Server Messaging in Ruby
 
-Things you may want to cover:
+The features includes:
 
-* Ruby version
+Signing up, in and out - we will use devise for that
+Uploading video - Simple upload, we will need to handle encoding for web formats
+Playing video - we will use basic videojs snippet to create simple video player
+Notifications - we would like to notify user when encoding is done and create scaffold for notifications system, we will use pubnub for that
+Like counter - simple example how to update page elements dynamically with usage of pubnub lib
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version -- 2.2 or later
+  Rails - 4.2 or later
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+ Requirements :  Installed ffmpeg and redis on development machine
